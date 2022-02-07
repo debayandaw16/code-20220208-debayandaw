@@ -10,19 +10,7 @@ data  =[{"Gender": "Male", "HeightCm":171, "WeightKg":96},
 { "Gender": "Male", "HeightCm": 170, "WeightKg": 80.5 },
 { "Gender": "Female", "HeightCm": 166.0, "WeightKg": 62},
 {"Gender": "Female", "HeightCm": 150.0, "WeightKg": 90.99},
-{"Gender": "Female", "HeightCm": 167.0, "WeightKg": 100},
-{"Gender": "Female", "HeightCm": '@123', "WeightKg": 82},
-{"Gender": "Female", "HeightCm": '@123', "WeightKg": 'ABC'},
-{"Gender": "Female", "HeightCm": '$$$', "WeightKg": 'abc'},
-{"Gender": "Female", "HeightCm": -132, "WeightKg": 'abc'},
-{"Gender": "Female", "HeightCm": -132, "WeightKg": -58},
-{"Gender": "Male", "HeightCm": 132, "WeightKg": -58},
-{"Gender": "Male", "HeightCm": '1 32', "WeightKg": 58},
-{"Gender": "Male", "HeightCm": 0, "WeightKg": 0},
-{"Gender": "Male", "HeightCm": 0, "WeightKg": 0.7},
-{"Gender": "Male", "HeightCm": 0.5, "WeightKg": 0.7},
-{"Gender": "Male", "HeightCm": 0, "WeightKg": -10.4},
-{"Gender": "Male", "HeightCm": 220, "WeightKg": '011 '}]
+{"Gender": "Female", "HeightCm": 167.0, "WeightKg": 100}]
 
 #Calculate bmi of a person and categorize it into bmi category and health risk
 def bmi(weight, height):
